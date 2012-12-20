@@ -4,11 +4,12 @@
   "version": "1.0.0-rc2",
   "homepage": "https://drupal.org/project/nodejs",
   "engines": {
-    "node": "~0.8.2"
+    "node": "0.8.x",
+    "npm": "1.1.x"
   },
   "dependencies": {
-    "express": "~2.5",
-    "request": "~2.9",
-    "socket.io": "~0.9.6"
+    "express": "2.5.x",
+    "request": "2.9.x",
+    "socket.io": "0.9.x"
   }
 }
